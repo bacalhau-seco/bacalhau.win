@@ -1,0 +1,112 @@
+/*!
+ *  Hack typeface https://github.com/source-foundry/Hack
+ *  License: https://github.com/source-foundry/Hack/blob/master/LICENSE.md
+ */
+/* FONT PATHS
+ * -------------------------- */
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bold.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-italic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('fonts/hack-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* ACTUAL STUFF THAT MAKES THE PAGE LOOK COOL AF */
+
+.coolassnav {
+  display: flex;
+  margin: 0;
+  background-color: #080a08;
+  border-style: dashed;
+  border-color: white;
+  width: 98%;
+  justify-content: space-between;
+}
+
+.coolassnav a {
+  font-family: "hack";
+  color: #6dff6d;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.coolassnav a:hover {
+  color: white;
+}
+
+.box{
+  width: 98%;
+  margin: 0;
+  background-color: #151713;
+  border-style: dashed;
+  padding: 5%;
+  border-color: #00ff00;
+}
+
+h1{
+  font-family: "hack";
+  color: #00ff00;
+  align-text: center;
+  justify-content: center;
+}
+h2{
+  font-family: "hack";
+  color: #ffff00;
+  justify-content: center;
+}
+h3{
+  font-family: "hack";
+  color: white;
+}
+
+h4{
+  font-family: "hack";
+  color: white;
+}
+
+p{
+  font-family: "hack";
+  width: 20%;
+  color: white;
+}
+
+body{
+  font-family: "hack";
+  background-color: #1b1d1b;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
+}
+
+
+
+
+
+
+
